@@ -19,6 +19,13 @@
 			{
 				"navigationBarTitleText" : "测试"
 			}
+		},
+		{
+			"path" : "pages/scroll_view/scroll_view",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
 		}
 	],
 	"globalStyle": {
