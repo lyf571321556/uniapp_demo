@@ -1,10 +1,10 @@
 <template>
 	<view>
 		<swiper class="swiper_box" circular vertical autoplay interval="2000" indicator-dots indicator-color="#007aff" indicator-active-color="#4cd964">
-			<swiper-item>1111111</swiper-item>
-			<swiper-item>1111112</swiper-item>
-			<swiper-item>1111113</swiper-item>
-			<swiper-item>1111114</swiper-item>
+			<swiper-item><image src="../../static/pic0.jpeg" class="pic0" mode="aspectFill"></image></swiper-item>
+			<swiper-item><image src="../../static/pic1.png" class="pic1" mode="aspectFill"></image></swiper-item>
+			<swiper-item><image src="../../static/pic2.jpeg" class="pic2" mode="aspectFill"></image></swiper-item>
+			<swiper-item><image src="../../static/pic3.jpeg" class="pic3" mode="aspectFill"></image></swiper-item>
 		</swiper>
 	</view>
 </template>
@@ -32,6 +32,10 @@ swiper{
 		width: 50vw;
 		height: 100%;
 		background: green;
+		image{
+			width: 100%;
+			height: 100%;
+		}
 	}
 	swiper-item:nth-child(2n){
 		background: orange;
