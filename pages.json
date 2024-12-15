@@ -24,21 +24,42 @@
 			"path" : "pages/scroll_view/scroll_view",
 			"style" : 
 			{
-				"navigationBarTitleText" : ""
+				"navigationBarTitleText" : "滚动组件"
 			}
 		},
 		{
 			"path" : "pages/swiper/swiper",
 			"style" : 
 			{
-				"navigationBarTitleText" : ""
+				"navigationBarTitleText" : "轮播组件"
 			}
 		},
 		{
 			"path" : "pages/image/image",
 			"style" : 
 			{
-				"navigationBarTitleText" : ""
+				"navigationBarTitleText" : "图片组件"
+			}
+		},
+		{
+			"path" : "pages/input_button/input_button",
+			"style" : 
+			{
+				"navigationBarTitleText" : "input,button组件"
+			}
+		},
+		{
+			"path" : "pages/template_view/template_view",
+			"style" : 
+			{
+				"navigationBarTitleText" : "魔板预发和差值运算使用"
+			}
+		},
+		{
+			"path" : "pages/reactive/reactive",
+			"style" : 
+			{
+				"navigationBarTitleText" : "响应式用法示例"
 			}
 		}
 	],

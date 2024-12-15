@@ -6,6 +6,7 @@
 		</view>
 	</view>
 	<text selectable space="ensp">可以复制的文本</text>
+	<navigator url="/pages/image/image">跳转到图片列表</navigator>
 </template>
 
 <script setup>

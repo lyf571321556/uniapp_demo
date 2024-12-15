@@ -1,11 +1,20 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
+		<navigator url="/pages/demo/demo">
+			<image class="logo" src="/static/logo.png">
+			</image>
+		</navigator>
 		<view class="text-area">
 			<text class="title">{{title}}</text>
 		</view>
 		<view>你好</view>
 		<view>--**--</view>
+		<view>
+			<navigator url="/pages/demo/demo">文本组件，事件冒泡</navigator>
+			<navigator url="/pages/input_button/input_button">input,button组件</navigator>
+			<navigator url="/pages/template_view/template_view">模版预发和插值运算示例</navigator>
+			<navigator url="/pages/reactive/reactive">响应式用法示例</navigator>
+			</view>
 	</view>
 	<view class="layout">
 		<view class="box1">aaa</view>
