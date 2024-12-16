@@ -61,6 +61,13 @@
 			{
 				"navigationBarTitleText" : "响应式用法示例"
 			}
+		},
+		{
+			"path" : "pages/v_bind/v_bind",
+			"style" : 
+			{
+				"navigationBarTitleText" : "指令用法示例"
+			}
 		}
 	],
 	"globalStyle": {

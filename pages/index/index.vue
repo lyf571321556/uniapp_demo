@@ -14,6 +14,7 @@
 			<navigator url="/pages/input_button/input_button">input,button组件</navigator>
 			<navigator url="/pages/template_view/template_view">模版预发和插值运算示例</navigator>
 			<navigator url="/pages/reactive/reactive">响应式用法示例</navigator>
+			<navigator url="/pages/v_bind/v_bind">指令用法示例</navigator>
 			</view>
 	</view>
 	<view class="layout">
