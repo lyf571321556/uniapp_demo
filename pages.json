@@ -68,6 +68,13 @@
 			{
 				"navigationBarTitleText" : "指令用法示例"
 			}
+		},
+		{
+			"path" : "pages/class_style/class_style",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Class 与 Style 绑定"
+			}
 		}
 	],
 	"globalStyle": {

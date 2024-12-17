@@ -15,6 +15,7 @@
 			<navigator url="/pages/template_view/template_view">模版预发和插值运算示例</navigator>
 			<navigator url="/pages/reactive/reactive">响应式用法示例</navigator>
 			<navigator url="/pages/v_bind/v_bind">指令用法示例</navigator>
+			<navigator url="/pages/class_style/class_style">Class 与 Style 绑定</navigator>
 			</view>
 	</view>
 	<view class="layout">
