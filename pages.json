@@ -82,6 +82,13 @@
 			{
 				"navigationBarTitleText" : "事件用法示例"
 			}
+		},
+		{
+			"path" : "pages/vue_template/vue_template",
+			"style" : 
+			{
+				"navigationBarTitleText" : "vue3模版创建以及条件渲染用法示例"
+			}
 		}
 	],
 	"globalStyle": {
