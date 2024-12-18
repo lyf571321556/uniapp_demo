@@ -16,6 +16,7 @@
 			<navigator url="/pages/reactive/reactive">响应式用法示例</navigator>
 			<navigator url="/pages/v_bind/v_bind">指令用法示例</navigator>
 			<navigator url="/pages/class_style/class_style">Class 与 Style 绑定</navigator>
+			<navigator url="/pages/events/events">事件用法示例</navigator>
 			</view>
 	</view>
 	<view class="layout">

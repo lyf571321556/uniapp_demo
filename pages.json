@@ -75,6 +75,13 @@
 			{
 				"navigationBarTitleText" : "Class 与 Style 绑定"
 			}
+		},
+		{
+			"path" : "pages/events/events",
+			"style" : 
+			{
+				"navigationBarTitleText" : "事件用法示例"
+			}
 		}
 	],
 	"globalStyle": {
