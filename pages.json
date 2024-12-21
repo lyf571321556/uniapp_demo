@@ -89,6 +89,20 @@
 			{
 				"navigationBarTitleText" : "vue3模版创建以及条件渲染用法示例"
 			}
+		},
+		{
+			"path" : "pages/v_for/v_for",
+			"style" : 
+			{
+				"navigationBarTitleText" : "列表渲染用法示例"
+			}
+		},
+		{
+			"path" : "pages/shopping_car/shopping_car",
+			"style" : 
+			{
+				"navigationBarTitleText" : "购物车示例"
+			}
 		}
 	],
 	"globalStyle": {

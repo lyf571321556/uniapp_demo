@@ -18,6 +18,8 @@
 			<navigator url="/pages/class_style/class_style">Class 与 Style 绑定</navigator>
 			<navigator url="/pages/events/events">事件用法示例</navigator>
 			<navigator url="/pages/vue_template/vue_template">vue3模版创建以及条件渲染用法示例</navigator>
+			<navigator url="/pages/v_for/v_for">列表渲染用法示例</navigator>
+			<navigator url="/pages/shopping_car/shopping_car">购物车示例</navigator>
 			</view>
 	</view>
 	<view class="layout">
