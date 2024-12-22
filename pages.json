@@ -103,6 +103,13 @@
 			{
 				"navigationBarTitleText" : "购物车示例"
 			}
+		},
+		{
+			"path" : "pages/form_focus_blur/form_focus_blur",
+			"style" : 
+			{
+				"navigationBarTitleText" : "表单焦点事件案例"
+			}
 		}
 	],
 	"globalStyle": {

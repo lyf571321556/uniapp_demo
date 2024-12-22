@@ -1,15 +1,5 @@
 <template>
 	<view class="content">
-		<navigator url="/pages/demo/demo">
-			<image class="logo" src="/static/logo.png">
-			</image>
-		</navigator>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
-		<view>你好</view>
-		<view>--**--</view>
-		<view>
 			<navigator url="/pages/demo/demo">文本组件，事件冒泡</navigator>
 			<navigator url="/pages/input_button/input_button">input,button组件</navigator>
 			<navigator url="/pages/template_view/template_view">模版预发和插值运算示例</navigator>
@@ -20,8 +10,17 @@
 			<navigator url="/pages/vue_template/vue_template">vue3模版创建以及条件渲染用法示例</navigator>
 			<navigator url="/pages/v_for/v_for">列表渲染用法示例</navigator>
 			<navigator url="/pages/shopping_car/shopping_car">购物车示例</navigator>
-			</view>
+			<navigator url="/pages/form_focus_blur/form_focus_blur">表单焦点事件案例</navigator>
 	</view>
+	<navigator url="/pages/demo/demo">
+		<image class="logo" src="/static/logo.png">
+		</image>
+	</navigator>
+	<view class="text-area">
+		<text class="title">{{title}}</text>
+	</view>
+	<view>你好</view>
+	<view>--**--</view>
 	<view class="layout">
 		<view class="box1">aaa</view>
 		<view class="box2">bbb</view>
