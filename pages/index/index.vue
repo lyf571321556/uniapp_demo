@@ -11,6 +11,7 @@
 			<navigator url="/pages/v_for/v_for">列表渲染用法示例</navigator>
 			<navigator url="/pages/shopping_car/shopping_car">购物车示例</navigator>
 			<navigator url="/pages/form_focus_blur/form_focus_blur">表单焦点事件案例</navigator>
+			<navigator url="/pages/stage0/stage0">第一阶段知识点综合练习</navigator>
 	</view>
 	<navigator url="/pages/demo/demo">
 		<image class="logo" src="/static/logo.png">

@@ -110,6 +110,13 @@
 			{
 				"navigationBarTitleText" : "表单焦点事件案例"
 			}
+		},
+		{
+			"path" : "pages/stage0/stage0",
+			"style" : 
+			{
+				"navigationBarTitleText" : "第一阶段知识点综合练习"
+			}
 		}
 	],
 	"globalStyle": {
