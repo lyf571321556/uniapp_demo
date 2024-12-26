@@ -124,6 +124,13 @@
 			{
 				"navigationBarTitleText" : "计算属性用法示例"
 			}
+		},
+		{
+			"path" : "pages/watch_effect/watch_effect",
+			"style" : 
+			{
+				"navigationBarTitleText" : "watch监听使用示例"
+			}
 		}
 	],
 	"globalStyle": {
