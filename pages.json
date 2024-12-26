@@ -117,6 +117,13 @@
 			{
 				"navigationBarTitleText" : "第一阶段知识点综合练习"
 			}
+		},
+		{
+			"path" : "pages/computed_propertity/computed_propertity",
+			"style" : 
+			{
+				"navigationBarTitleText" : "计算属性用法示例"
+			}
 		}
 	],
 	"globalStyle": {
