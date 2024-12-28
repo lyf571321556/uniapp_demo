@@ -131,6 +131,13 @@
 			{
 				"navigationBarTitleText" : "watch监听使用示例"
 			}
+		},
+		{
+			"path" : "pages/use_components/use_components",
+			"style" : 
+			{
+				"navigationBarTitleText" : "自定义组件用法示例"
+			}
 		}
 	],
 	"globalStyle": {
