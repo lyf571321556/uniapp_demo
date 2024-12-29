@@ -145,6 +145,20 @@
 			{
 				"navigationBarTitleText" : "props给组件传值用法"
 			}
+		},
+		{
+			"path" : "pages/slot_page/slot_page",
+			"style" : 
+			{
+				"navigationBarTitleText" : "插槽的用法示例"
+			}
+		},
+		{
+			"path" : "pages/slot_widget_page/slot_widget_page",
+			"style" : 
+			{
+				"navigationBarTitleText" : "插槽组件显示用法示例"
+			}
 		}
 	],
 	"globalStyle": {

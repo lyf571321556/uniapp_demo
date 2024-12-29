@@ -16,6 +16,8 @@
 			<navigator url="/pages/watch_effect/watch_effect">监听使用示例</navigator>
 			<navigator url="/pages/use_components/use_components">自定义组件用法示例</navigator>
 			<navigator url="/pages/props_page/props_page">props给组件传值用法</navigator>
+			<navigator url="/pages/slot_page/slot_page">插槽的用法示例</navigator>
+			<navigator url="/pages/slot_widget_page/slot_widget_page">插槽组件显示用法示例</navigator>
 	</view>
 	<navigator url="/pages/demo/demo">
 		<image class="logo" src="/static/logo.png">
