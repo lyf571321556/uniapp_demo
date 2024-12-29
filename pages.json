@@ -138,6 +138,13 @@
 			{
 				"navigationBarTitleText" : "自定义组件用法示例"
 			}
+		},
+		{
+			"path" : "pages/props_page/props_page",
+			"style" : 
+			{
+				"navigationBarTitleText" : "props给组件传值用法"
+			}
 		}
 	],
 	"globalStyle": {

@@ -15,6 +15,7 @@
 			<navigator url="/pages/computed_propertity/computed_propertity">计算属性用法示例</navigator>
 			<navigator url="/pages/watch_effect/watch_effect">监听使用示例</navigator>
 			<navigator url="/pages/use_components/use_components">自定义组件用法示例</navigator>
+			<navigator url="/pages/props_page/props_page">props给组件传值用法</navigator>
 	</view>
 	<navigator url="/pages/demo/demo">
 		<image class="logo" src="/static/logo.png">
