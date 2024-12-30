@@ -159,6 +159,20 @@
 			{
 				"navigationBarTitleText" : "插槽组件显示用法示例"
 			}
+		},
+		{
+			"path" : "pages/emit_page/emit_page",
+			"style" : 
+			{
+				"navigationBarTitleText" : "emit事件用法示例"
+			}
+		},
+		{
+			"path" : "pages/component_lifecycle/component_lifecycle",
+			"style" : 
+			{
+				"navigationBarTitleText" : "组件生命周期"
+			}
 		}
 	],
 	"globalStyle": {
