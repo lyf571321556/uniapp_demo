@@ -173,6 +173,13 @@
 			{
 				"navigationBarTitleText" : "组件生命周期"
 			}
+		},
+		{
+			"path" : "pages/expose_method_propertity_page/expose_method_propertity_page",
+			"style" : 
+			{
+				"navigationBarTitleText" : "子组件方法和属性导出用法示例"
+			}
 		}
 	],
 	"globalStyle": {

@@ -20,6 +20,7 @@
 			<navigator url="/pages/slot_widget_page/slot_widget_page">插槽组件显示用法示例</navigator>
 			<navigator url="/pages/emit_page/emit_page">emit事件用法示例</navigator>
 			<navigator url="/pages/component_lifecycle/component_lifecycle">组件生命周期用法示例</navigator>
+			<navigator url="/pages/expose_method_propertity_page/expose_method_propertity_page">子组件导出方法和属性用法示例</navigator>
 	</view>
 	<navigator url="/pages/demo/demo">
 		<image class="logo" src="/static/logo.png">
