@@ -7,7 +7,7 @@
 		{{item}}
 	</view>
 	<view class="fixed" v-if="showArrow">
-		🔼
+		🔼向上
 	</view>
 </template>
 
