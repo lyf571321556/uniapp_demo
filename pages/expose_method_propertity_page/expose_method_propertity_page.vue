@@ -11,7 +11,7 @@ import { onMounted, ref } from 'vue';
 const child = ref(null)
 console.log(child.value)
 const update =function(){
-	child.value.updateCount();
+	child.value.update();
 	console.log(child.value.count)
 }
 onMounted(()=>{

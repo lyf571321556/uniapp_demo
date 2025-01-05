@@ -180,6 +180,20 @@
 			{
 				"navigationBarTitleText" : "子组件方法和属性导出用法示例"
 			}
+		},
+		{
+			"path" : "pages/lifecycle_page/lifecycle_page",
+			"style" : 
+			{
+				"navigationBarTitleText" : "页面生命周期用法示例"
+			}
+		},
+		{
+			"path" : "pages/params_page/params_page",
+			"style" : 
+			{
+				"navigationBarTitleText" : "参数传递页面用法示例"
+			}
 		}
 	],
 	"globalStyle": {
