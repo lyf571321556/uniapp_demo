@@ -194,6 +194,13 @@
 			{
 				"navigationBarTitleText" : "参数传递页面用法示例"
 			}
+		},
+		{
+			"path" : "pages/rpx_page/rpx_page",
+			"style" : 
+			{
+				"navigationBarTitleText" : "响应式单位rpx用法示例"
+			}
 		}
 	],
 	"globalStyle": {
