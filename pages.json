@@ -3,7 +3,7 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "index页面"
 			}
 		},
 		{
@@ -201,13 +201,75 @@
 			{
 				"navigationBarTitleText" : "响应式单位rpx用法示例"
 			}
+		},
+		{
+			"path" : "pages/page_pull_down_up_lifecycle/page_pull_down_up_lifecycle",
+			"style" : 
+			{
+				"navigationBarTitleText" : "下拉刷新以及生命周期用法示例",
+				"navigationBarBackgroundColor": "#007aff",
+				"enablePullDownRefresh": true
+			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTitleText": "App",
+		"navigationBarBackgroundColor": "#2beccc",
+		// "navigationStyle": "custom", //自定义导航栏
+		"backgroundColor": "#ccc",
+		"enablePullDownRefresh": false,
+		"backgroundTextStyle": "light",
+		"onReachBottomDistance": 100
 	},
+	// "tabBar": {
+	// 	"position": "bottom",
+	// 	"color": "#999",
+	// 	"selectedColor": "#FE1C32",
+	// 	"backgroundColor": "#fff",
+	// 	"borderStyle": "black",
+	// 	"list": [
+	// 		{
+	// 			"text": "首页",
+	// 			"iconPath": "static/pic1.png",
+	// 			"pagePath": "pages/index/index",
+	// 			"selectedIconPath": "static/pic0.jpeg",
+	// 			"iconfont": {
+	// 				"color": "#cdbdba",
+	// 				"selectedColor": "#c71585"
+	// 			}
+	// 		},
+	// 		{
+	// 			"text": "商品",
+	// 			"iconPath": "static/pic0.jpeg",
+	// 			"pagePath": "pages/form_focus_blur/form_focus_blur",
+	// 			"selectedIconPath": "static/pic3.jpeg",
+	// 			"iconfont": {
+	// 				"color": "#cdbdba",
+	// 				"selectedColor": "#c71585"
+	// 			}
+	// 		},
+	// 		{
+	// 			"text": "订单",
+	// 			"iconPath": "static/pic2.jpeg",
+	// 			"pagePath": "pages/emit_page/emit_page",
+	// 			"selectedIconPath": "static/pic1.png",
+	// 			"iconfont": {
+	// 				"color": "#cdbdba",
+	// 				"selectedColor": "#c71585"
+	// 			}
+	// 		},
+	// 		{
+	// 			"text": "我的",
+	// 			"iconPath": "static/pic3.jpeg",
+	// 			"pagePath": "pages/page_pull_down_up_lifecycle/page_pull_down_up_lifecycle",
+	// 			"selectedIconPath": "static/pic2.jpeg",
+	// 			"iconfont": {
+	// 				"color": "#cdbdba",
+	// 				"selectedColor": "#c71585"
+	// 			}
+	// 		}
+	// 	]
+	// },
 	"uniIdRouter": {}
 }

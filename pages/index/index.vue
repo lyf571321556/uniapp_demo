@@ -23,6 +23,7 @@
 			<navigator url="/pages/expose_method_propertity_page/expose_method_propertity_page">子组件导出方法和属性用法示例</navigator>
 			<navigator url="/pages/lifecycle_page/lifecycle_page">页面生命周期用法示例</navigator>
 			<navigator url="/pages/rpx_page/rpx_page">响应式单位rpx用法示例</navigator>
+			<navigator url="/pages/page_pull_down_up_lifecycle/page_pull_down_up_lifecycle">下拉熟悉以及生命周期用法示例</navigator>
 	</view>
 	<navigator url="/pages/demo/demo">
 		<image class="logo" src="/static/logo.png">

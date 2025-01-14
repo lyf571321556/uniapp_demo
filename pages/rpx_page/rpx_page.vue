@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-ref
+
 </script>
 
 <style lang="scss" scoped>

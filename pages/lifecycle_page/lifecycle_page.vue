@@ -1,6 +1,6 @@
 <template>
 	<view class="">
-		页面生命周期用法示例:{{userName}}
+		页面生命周期用法示例123:{{userName}}
 	</view>
 	<navigator url="/pages/params_page/params_page?name=王五&age=10">点击跳转到取值页面</navigator>
 	<view v-for="(item,index) in 50" :key="index">
@@ -12,15 +12,18 @@
 </template>
 
 <script setup>
-import {onLoad,onShow,onReady,onUnload,onPageScroll} from "@dcloudio/uni-app"
-import { onBeforeMount, onMounted, ref } from "vue";
+// 使用自动导入插件
+// import {onLoad,onShow,onReady,onUnload,onPageScroll} from "@dcloudio/uni-app"
+// import { onBeforeMount, onMounted, ref } from "vue";
 const userName = ref('')
 const showArrow = ref(false)
 const person = {
   name:'adas11',
   age:20,
 }
-onLoad(()=>{
+
+
+onLoad((e)=>{
 	console.log("onLoad")
 	userName.value ='onLoad userName';
 });
