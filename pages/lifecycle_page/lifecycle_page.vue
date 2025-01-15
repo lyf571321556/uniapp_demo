@@ -1,6 +1,6 @@
 <template>
 	<view class="">
-		页面生命周期用法示例123:{{userName}}
+		页面生命周期用法示例1234:{{userName}}
 	</view>
 	<navigator url="/pages/params_page/params_page?name=王五&age=10">点击跳转到取值页面</navigator>
 	<view v-for="(item,index) in 50" :key="index">
@@ -25,7 +25,7 @@ const person = {
 
 onLoad((e)=>{
 	console.log("onLoad")
-	userName.value ='onLoad userName';
+	userName.value ='onLoad 设置 userName';
 });
 
 onShow((e)=>{

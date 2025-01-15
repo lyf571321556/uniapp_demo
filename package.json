@@ -2,5 +2,6 @@
   "name": "study_demo1",
   "version": "1.0.0",
   "dependencies": {
+    "vite": "^6.0.7"
   }
 }

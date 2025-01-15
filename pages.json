@@ -210,6 +210,13 @@
 				"navigationBarBackgroundColor": "#007aff",
 				"enablePullDownRefresh": true
 			}
+		},
+		{
+			"path" : "pages/api_demo/api_demo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "uniapp api用法示例"
+			}
 		}
 	],
 	"globalStyle": {
