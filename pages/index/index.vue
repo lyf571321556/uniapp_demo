@@ -42,6 +42,7 @@
 </template>
 
 <script>
+	//uni.hideHomeButton()
 	export default {
 		data() {
 			return {

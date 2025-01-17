@@ -10,6 +10,19 @@
 </template>
 
 <script setup>
+uni.showNavigationBarLoading()
+setTimeout(()=>{
+	uni.setNavigationBarTitle({
+		title:"动态标题",
+	})
+	uni.setNavigationBarColor({
+		backgroundColor:'#4cd964',
+		frontColor:'#3F536E'
+	})
+	uni.hideNavigationBarLoading()
+	// 关闭home页面按钮
+	uni.hideHomeButton()
+},2000)
 function showToast(){
   uni.showToast({
     title:'错误提示错误提示错误提示错误提示错误提示',
@@ -96,6 +109,7 @@ function showActionsheet(){
 		
 	})
 }
+
 </script>
 
 <style lang="scss" scoped>
