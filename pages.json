@@ -3,7 +3,8 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "index页面"
+				"navigationBarTitleText": "index页面",
+				"enablePullDownRefresh": true
 			}
 		},
 		{
@@ -108,7 +109,11 @@
 			"path" : "pages/form_focus_blur/form_focus_blur",
 			"style" : 
 			{
-				"navigationBarTitleText" : "表单焦点事件案例"
+				"navigationBarTitleText" : "表单焦点事件案例",
+				"navigationBarBackgroundColor": "#F2E6DE",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "商品+",
+				"enablePullDownRefresh":true
 			}
 		},
 		{
@@ -229,54 +234,54 @@
 		"backgroundTextStyle": "light",
 		"onReachBottomDistance": 100
 	},
-	// "tabBar": {
-	// 	"position": "bottom",
-	// 	"color": "#999",
-	// 	"selectedColor": "#FE1C32",
-	// 	"backgroundColor": "#fff",
-	// 	"borderStyle": "black",
-	// 	"list": [
-	// 		{
-	// 			"text": "首页",
-	// 			"iconPath": "static/pic1.png",
-	// 			"pagePath": "pages/index/index",
-	// 			"selectedIconPath": "static/pic0.jpeg",
-	// 			"iconfont": {
-	// 				"color": "#cdbdba",
-	// 				"selectedColor": "#c71585"
-	// 			}
-	// 		},
-	// 		{
-	// 			"text": "商品",
-	// 			"iconPath": "static/pic0.jpeg",
-	// 			"pagePath": "pages/form_focus_blur/form_focus_blur",
-	// 			"selectedIconPath": "static/pic3.jpeg",
-	// 			"iconfont": {
-	// 				"color": "#cdbdba",
-	// 				"selectedColor": "#c71585"
-	// 			}
-	// 		},
-	// 		{
-	// 			"text": "订单",
-	// 			"iconPath": "static/pic2.jpeg",
-	// 			"pagePath": "pages/emit_page/emit_page",
-	// 			"selectedIconPath": "static/pic1.png",
-	// 			"iconfont": {
-	// 				"color": "#cdbdba",
-	// 				"selectedColor": "#c71585"
-	// 			}
-	// 		},
-	// 		{
-	// 			"text": "我的",
-	// 			"iconPath": "static/pic3.jpeg",
-	// 			"pagePath": "pages/page_pull_down_up_lifecycle/page_pull_down_up_lifecycle",
-	// 			"selectedIconPath": "static/pic2.jpeg",
-	// 			"iconfont": {
-	// 				"color": "#cdbdba",
-	// 				"selectedColor": "#c71585"
-	// 			}
-	// 		}
-	// 	]
-	// },
+	"tabBar": {
+		"position": "bottom",
+		"color": "#999",
+		"selectedColor": "#FE1C32",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"text": "首页",
+				"iconPath": "static/pic1.png",
+				"pagePath": "pages/index/index",
+				"selectedIconPath": "static/pic0.jpeg",
+				"iconfont": {
+					"color": "#cdbdba",
+					"selectedColor": "#c71585"
+				}
+			},
+			{
+				"text": "商品",
+				"iconPath": "static/pic0.jpeg",
+				"pagePath": "pages/form_focus_blur/form_focus_blur",
+				"selectedIconPath": "static/pic3.jpeg",
+				"iconfont": {
+					"color": "#cdbdba",
+					"selectedColor": "#c71585"
+				}
+			},
+			{
+				"text": "订单",
+				"iconPath": "static/pic2.jpeg",
+				"pagePath": "pages/emit_page/emit_page",
+				"selectedIconPath": "static/pic1.png",
+				"iconfont": {
+					"color": "#cdbdba",
+					"selectedColor": "#c71585"
+				}
+			},
+			{
+				"text": "我的",
+				"iconPath": "static/pic3.jpeg",
+				"pagePath": "pages/page_pull_down_up_lifecycle/page_pull_down_up_lifecycle",
+				"selectedIconPath": "static/pic2.jpeg",
+				"iconfont": {
+					"color": "#cdbdba",
+					"selectedColor": "#c71585"
+				}
+			}
+		]
+	},
 	"uniIdRouter": {}
 }

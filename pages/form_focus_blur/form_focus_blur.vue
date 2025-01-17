@@ -29,7 +29,11 @@
 
 <script setup>
 import { computed, ref } from 'vue';
-
+//设置tabbar角标
+uni.setTabBarBadge({
+	index:1,
+	text:'20+'
+})
 const shoppingCarList = ref([
 	{id:"1",name:"手机",prince:12,checked:false},
 	{id:"2",name:"平板",prince:34,checked:false},
@@ -45,6 +49,16 @@ function itemChange(e){
 	selectedGoods.value = e.detail.value;
 	shoppingCarList.value.forEach((e)=>{
 		e.checked=selectedGoods.value.includes(e.id)
+	})
+	//移除角标
+	uni.removeTabBarBadge({
+		index:1
+	})
+	uni.showTabBarRedDot({
+		index:1
+	})
+	uni.hideTabBarRedDot({
+		index:1
 	})
 }
 

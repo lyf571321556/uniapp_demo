@@ -42,6 +42,7 @@
 </template>
 
 <script>
+	// 关闭左上角home按钮
 	//uni.hideHomeButton()
 	export default {
 		data() {
@@ -56,6 +57,23 @@
 
 		}
 	}
+	
+	setTimeout(()=>{
+		uni.startPullDownRefresh({
+			success: res => {
+				
+			},
+			fail: () => {
+				
+			},
+			complete: () => {
+				
+			}
+		});
+	},100)
+	setTimeout(()=>{
+		uni.stopPullDownRefresh()
+	},2000)
 </script>
 
 <style lang="scss">

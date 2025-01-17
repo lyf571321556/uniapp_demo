@@ -2,6 +2,16 @@
 	export default {
 		onLaunch: function() {
 			console.log('App Launch')
+			uni.setTabBarItem({
+				index:1,
+				text:'自定义1'
+			})
+			
+			//隐藏、显示tabbar
+			setTimeout(()=>{
+				uni.hideTabBar()
+				uni.showTabBar()
+			},1000)
 		},
 		onShow: function() {
 			console.log('App Show')
