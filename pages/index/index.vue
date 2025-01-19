@@ -26,6 +26,7 @@
 			<navigator url="/pages/page_pull_down_up_lifecycle/page_pull_down_up_lifecycle">下拉熟悉以及生命周期用法示例</navigator>
 			<navigator url="/pages/api_demo/api_demo">uniapp api用法示例</navigator>
 			<navigator url="/pages/navi_page_demo/navi_page_demo">页面路由用法示例</navigator>
+			<navigator url="/pages/storage_demo_page/storage_demo_page">storage读写用法示例</navigator>
 	</view>
 	<navigator url="/pages/demo/demo">
 		<image class="logo" src="/static/logo.png">

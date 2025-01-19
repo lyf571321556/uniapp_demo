@@ -229,6 +229,14 @@
 			{
 				"navigationBarTitleText" : "页面导航及路由用法示例"
 			}
+		},
+		{
+			"path" : "pages/storage_demo_page/storage_demo_page",
+			"style" : 
+			{
+				"navigationBarTitleText" : "storage数据读写用法示例
+		\t\t"
+			}
 		}
 	],
 	"globalStyle": {
