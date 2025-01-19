@@ -9,17 +9,8 @@
 	</view>
 </template>
 
-<script>
-	export default {
-		data() {
-			return {
-				
-			}
-		},
-		methods: {
-			
-		}
-	}
+<script setup>
+	console.log(getCurrentPages())
 </script>
 
 <style lang="scss">

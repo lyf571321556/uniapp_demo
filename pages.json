@@ -222,6 +222,13 @@
 			{
 				"navigationBarTitleText" : "uniapp api用法示例"
 			}
+		},
+		{
+			"path" : "pages/navi_page_demo/navi_page_demo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "页面导航及路由用法示例"
+			}
 		}
 	],
 	"globalStyle": {
