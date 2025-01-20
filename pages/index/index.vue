@@ -27,6 +27,7 @@
 			<navigator url="/pages/api_demo/api_demo">uniapp api用法示例</navigator>
 			<navigator url="/pages/navi_page_demo/navi_page_demo">页面路由用法示例</navigator>
 			<navigator url="/pages/storage_demo_page/storage_demo_page">storage读写用法示例</navigator>
+			<navigator url="/pages/request_demo_page/request_demo_page">网络请求用法示例</navigator>
 	</view>
 	<navigator url="/pages/demo/demo">
 		<image class="logo" src="/static/logo.png">

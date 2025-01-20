@@ -234,8 +234,14 @@
 			"path" : "pages/storage_demo_page/storage_demo_page",
 			"style" : 
 			{
-				"navigationBarTitleText" : "storage数据读写用法示例
-		\t\t"
+				"navigationBarTitleText" : "storage数据读写用法示例"
+			}
+		},
+		{
+			"path" : "pages/request_demo_page/request_demo_page",
+			"style" : 
+			{
+				"navigationBarTitleText" : "网路请求用法示例"
 			}
 		}
 	],
