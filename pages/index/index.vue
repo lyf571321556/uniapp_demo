@@ -11,6 +11,7 @@
 			<navigator url="/pages/v_for/v_for">列表渲染用法示例</navigator>
 			<navigator url="/pages/shopping_car/shopping_car">购物车示例</navigator>
 			<navigator url="/pages/form_focus_blur/form_focus_blur">表单焦点事件案例</navigator>
+			<navigator url="/pages/scroll_view/scroll_view">滚动视图区域组件</navigator>
 			<navigator url="/pages/stage0/stage0">第一阶段知识点综合练习</navigator>
 			<navigator url="/pages/computed_propertity/computed_propertity">计算属性用法示例</navigator>
 			<navigator url="/pages/watch_effect/watch_effect">监听使用示例</navigator>
@@ -28,6 +29,7 @@
 			<navigator url="/pages/navi_page_demo/navi_page_demo">页面路由用法示例</navigator>
 			<navigator url="/pages/storage_demo_page/storage_demo_page">storage读写用法示例</navigator>
 			<navigator url="/pages/request_demo_page/request_demo_page">网络请求用法示例</navigator>
+			<navigator url="/pages/test_demo/test_demo">页面布局练习第一部分</navigator>
 	</view>
 	<navigator url="/pages/demo/demo">
 		<image class="logo" src="/static/logo.png">

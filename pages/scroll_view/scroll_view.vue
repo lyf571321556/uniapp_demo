@@ -37,7 +37,7 @@
 	white-space: nowrap; // 不换行显示
 }
 .box{
-	width: 100px;
+	width: 180px;
 	height: 100px;
 	background: green;
 	display: inline-block;	// 行级块元素

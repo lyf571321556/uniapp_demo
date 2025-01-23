@@ -243,6 +243,13 @@
 			{
 				"navigationBarTitleText" : "网路请求用法示例"
 			}
+		},
+		{
+			"path" : "pages/test_demo/test_demo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "页面布局练习题第一部分"
+			}
 		}
 	],
 	"globalStyle": {
